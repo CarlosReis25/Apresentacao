@@ -4,6 +4,7 @@ body {
 .Conteinerpage {
     position: relative;
     min-height: 98vh;
+    max-height: 98vh;
 }
 .topo-cabeçalho{
     display: flex;
@@ -41,11 +42,13 @@ body {
 .footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.2);
+    height: 80px;
     padding-left: 90px;
     border-radius: 40px;
     border-top-right-radius: 300px;
@@ -53,7 +56,7 @@ body {
 }
 #titulofooter{
     display: flex;
-    align-self: center;
+    align-items: center;
     text-align: center;
     font-size: 0.9em;
     border-right: 1px solid black;
