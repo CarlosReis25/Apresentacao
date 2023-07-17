@@ -14,7 +14,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     border-bottom-right-radius: 300px;
     border-bottom-left-radius: 300px;
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 .textos_corpo{
@@ -34,7 +34,7 @@ body {
     right: 0;
     bottom: 0;
     height: 80px;
-    font-size: 1.5rem;
+    font-size: 1.1em;
     background-color: rgba(0, 0, 0, 0.3);
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
