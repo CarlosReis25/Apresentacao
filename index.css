@@ -1,7 +1,7 @@
 body {
     background-image: url("Imagens/Background/textura.jpg");
 }
-#Conteinerpage {
+.Conteinerpage {
     position: relative;
     min-height: 98vh;
 }
