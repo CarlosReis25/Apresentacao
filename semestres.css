@@ -14,13 +14,13 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     border-bottom-right-radius: 300px;
     border-bottom-left-radius: 300px;
-    font-size: 1.1em;
+    font-size: 1.4rem;
 }
 
 .textos_corpo{
     text-align: left;
     font-family: Lucida Typewriter, monospace;
-    font-size: 1em; 
+    font-size: 1rem; 
     min-height: max-content;
     padding-bottom: 80px;
 }
@@ -34,7 +34,7 @@ body {
     right: 0;
     bottom: 0;
     height: 80px;
-    font-size: 1.1em;
+    font-size: 1.4rem;
     background-color: rgba(0, 0, 0, 0.3);
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
