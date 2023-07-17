@@ -1,0 +1,64 @@
+body {
+    background-image: url("Imagens/Background/textura.jpg");
+}
+#Conteinerpage {
+    position: relative;
+    min-height: 98vh;
+}
+.topo-cabeçalho{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+.conteudo{
+    padding-bottom: 85px;
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;  
+    font-size: 1em; 
+    min-height: max-content;
+}
+.textos_centrais{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.foto_Projetos{
+    display: flex;
+    height: max-content;
+    width: max-content;
+}
+.projeto_bot{
+    max-width: max-content;
+}
+.menu_Semestres{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-left: 90px;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+}
+#titulofooter{
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-size: 0.9em;
+    border-right: 1px solid black;
+    max-width: max-content;
+}
+#conteudorodape{
+    display: flex;
+    flex-direction: column;
+   padding-top: 0.8em;
+   padding-left: 10px;
+   width: 20em;
+}

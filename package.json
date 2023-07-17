@@ -1,0 +1,12 @@
+{
+  "name": "apresentacao",
+  "version": "1.0.0",
+  "description": "Uma pagina de apresentacao para meus projetos",
+  "main": "index.html",
+  "scripts": {
+    "start": "index.html",
+    "test": "teste"
+  },
+  "author": "Carlos Augusto",
+  "license": "ISC"
+}
