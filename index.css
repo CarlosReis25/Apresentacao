@@ -3,7 +3,10 @@ body {
     background-image: url("Imagens/Background/textura.jpg");
     margin: 0;
     padding: 0;
-    max-height: 100vh;
+}
+html{
+    position: relative;
+    max-height: calc(100vh - 85px);
 }
 .conteiner{
     position: relative;
