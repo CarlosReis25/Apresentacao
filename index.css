@@ -4,13 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
-html{
-    position: relative;
-    max-height: calc(100vh - 85px);
-}
 .conteiner{
     position: relative;
-    min-height: calc(100vh - 85px);
+    min-height: calc(100vh - 80px);
 }
 .topo-cabeçalho{
     display: flex;
@@ -25,7 +21,6 @@ html{
     border-bottom-left-radius: 300px;
 }
 .conteudo{
-    padding-bottom: 80px;
     text-align: center;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;  
     font-size: 14px; 
@@ -36,7 +31,6 @@ html{
     margin-right: 5em;
     min-height: max-content;
 }
-
 .foto_Projetos{
     display: flex;
     height: 100;
@@ -48,18 +42,11 @@ html{
 .menu_Semestres{
     text-align: center;
 }
-.containerfooter{
-    display: flex;
-    justify-content: center;
-    min-height: 100;
-    position: relative;
-}
 .footer{
     background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
-    padding-left: 10px;
-    flex-grow: 1;
+    padding-left: 25px;
     align-items: center;
     height: 80px;
     border-radius: 40px;
